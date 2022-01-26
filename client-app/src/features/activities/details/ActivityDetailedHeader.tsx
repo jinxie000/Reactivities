@@ -57,7 +57,7 @@ export default observer(function ActivityDetailedHeader({ activity }: Props) {
                         <Button 
                             color={activity.isCancelled ? 'green' : 'red'}
                             floated='left'
-                            nasic
+                            basic
                             content={activity.isCancelled ? 'Re-activate Activity' : 'Canel Activity'}
                             onClick={cancelActivityToggle}
                             loading={loading}
